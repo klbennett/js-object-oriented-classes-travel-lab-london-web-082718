@@ -20,7 +20,7 @@ let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', '
     blocksTravelled() {
       console.log(this.beginningLocation)
       console.log(this.endingLocation)
-      console.log(this.beginningLocation.vertical - this.endingLocation.vertical)
+      console.log(this.endingLocation.vertical - this.beginningLocation.vertical)
 
       let verticalDistance = this.beginningLocation.vertical - this.endingLocation.vertical;
       let horizontalDistance = this.beginningLocation.horizontal.indexOf() - this.endingLocation.horizontal.indexOf()
