@@ -16,9 +16,9 @@ class Route {
 
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
-    
+
     blocksTravelled() {
-      console.log(beginningLocation)
+      console.log(this.beginningLocation)
       debugger
     }
   }
