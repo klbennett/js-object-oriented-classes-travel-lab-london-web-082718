@@ -20,5 +20,6 @@ class Route {
     blocksTravelled() {
       console.log(this.beginningLocation)
     }
+    
   }
 }
