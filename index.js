@@ -26,4 +26,5 @@ class Route {
       return northSouthDistance + eastWestDistance;
     }
 
+    
 }
