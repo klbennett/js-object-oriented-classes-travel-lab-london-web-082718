@@ -22,7 +22,7 @@ class Route {
       console.log(this.endingLocation.vertical - this.beginningLocation.vertical)
       let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
       let northSouthDistance = this.endingLocation.vertical - this.beginningLocation.vertical;
-      let eastWestDistance = eastWest.indexOf(endingLocation.horizontal) - eastWest.indexOf(beginningLocation.horizontal);
+      let eastWestDistance = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal);
       return northSouthDistance + eastWestDistance;
     }
 
