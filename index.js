@@ -15,7 +15,7 @@ class Route {
   constructor(beginningLocation, endingLocation) {
 
     blocksTravelled() {
-      
+      debugger
     }
   }
 }
