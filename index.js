@@ -15,6 +15,7 @@ class Route {
   constructor(beginningLocation, endingLocation) {
 
     blocksTravelled() {
+      console.log(beginningLocation)
       debugger
     }
   }
