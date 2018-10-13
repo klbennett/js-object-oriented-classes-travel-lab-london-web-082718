@@ -21,7 +21,7 @@ let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', '
       console.log(this.beginningLocation)
       console.log(this.endingLocation)
 
-      let verticalDistance = this.beginningLocation.vertical - this.endingLocation.vertical
+      let verticalDistance = this.beginningLocation.vertical - this.endingLocation.vertical;
     }
 
 }
