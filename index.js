@@ -26,7 +26,7 @@ class Route {
       return northSouthDistance + eastWestDistance;
     }
 
-    estimatedTime() {
+    estimatedTime(peak=false) {
       if peak {
       return this.blocksTravelled() / 3;
     }else
