@@ -23,7 +23,7 @@ let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', '
       console.log(this.beginningLocation.vertical - this.endingLocation.vertical)
 
       let verticalDistance = this.beginningLocation.vertical - this.endingLocation.vertical;
-      let horizontalDistance = this.beginningLocation.horizontal - this.endingLocation.horizontal
+      let horizontalDistance = this.beginningLocation.horizontal.indexOf() - this.endingLocation.horizontal.indexOf()
     }
 
 }
