@@ -13,7 +13,6 @@ class Driver {
 
 class Route {
   constructor(beginningLocation, endingLocation) {
-let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
 }
@@ -21,7 +20,7 @@ let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', '
       console.log(this.beginningLocation)
       console.log(this.endingLocation)
       console.log(this.endingLocation.vertical - this.beginningLocation.vertical)
-
+      let eastWest =  ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
       let northSouthDistance = this.endingLocation.vertical - this.beginningLocation.vertical;
       let eastWestDistance = eastWest.endingLocation.horizontal.indexOf() - eastWest.beginningLocation.horizontal.indexOf();
       return northSouthDistance + eastWestDistance;
